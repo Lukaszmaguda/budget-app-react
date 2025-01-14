@@ -1,0 +1,83 @@
+html {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1.5;
+  color: #03256c;
+  background-color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+  font-size: 1.4rem;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+
+}
+
+.balance-green{
+  color: #00ff15;
+  text-shadow: rgb(0, 255, 51) 0px 0px 50px;
+}
+.balance-red{
+  color: red;
+  text-shadow: rgb(241, 5, 5) 0px 0px 50px;
+}
+
+form {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input:focus, select:focus, button:focus {
+  border-color: #7992ad;
+  outline: none;
+}
+
+input[type="number"], input[type="text"], input[type="date"], select {
+  background-color: white;
+  color: #023e8a
+}
+
+button {
+  background-color: #042550;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d69d8;
+}
+
+button:active {
+  background-color: #091c30;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
