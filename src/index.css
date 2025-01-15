@@ -8,14 +8,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  min-height: 80rem;
-  font-size: 1.4rem;
+  min-height: 60rem;
+  font-size: 1.3rem;
 }
 
 .flex-row{
   display:flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 35px;
   justify-content: center;
 
 }
